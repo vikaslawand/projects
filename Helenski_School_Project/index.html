@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>www.helenskischool.com</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js">
+</script>
+
+	<style type="text/css">
+		body{
+			 margin: 0px;
+		}
+		#heading{
+
+				background: linear-gradient(to right,#FCCF31, #F55555);
+		}
+
+		ul{
+			overflow: hidden;
+			 list-style-type: none;
+			 margin: 0px;
+			 padding: 0px;
+			 background-color:  #990011;
+/*			 background-color: #33CCFF;*/
+
+			 /*position: fixed;*/
+			 width: 100%;
+/*			 top:0px;*/
+				margin-top: -30px;
+
+		}
+		li{
+             float: left;
+             border-right:2px solid white;
+
+		}
+		li a{
+			  display: block;
+			  color:white;
+			  text-align: center;
+			  text-decoration: none;
+			  padding: 14px 20px;
+		}
+		li a:hover{
+			   background-color: #FCF6F5;
+			   text-decoration: none;
+			   color:black;
+		}
+
+
+       .image_with_data{
+       	       box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.5);
+       	       transition: 0.3s;
+
+       }
+      
+       .image_with_data:hover{
+       	       box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
+       	       
+       }
+       .add_data{
+       	          padding: 2px 10px;
+       	          text-align: center;
+       }
+       #daily_schedule{
+       	text-align: center;
+
+       }
+       
+
+				
+				th,td{
+					text-align: center;
+				}
+
+				.mapclass
+				{
+				   width: 30%;
+				   padding: 10px;
+				   border: 3px;
+				   text-align: center;
+				   margin-left: 50px;
+				   display: inline-block;
+				   box-shadow: 2px 2px 3px 3px grey;
+				}
+				
+				.padding
+				{
+					padding: 5px;
+				}
+				.video
+				{
+					
+				}
+				#bor{
+					border-style: solid;
+					border-radius: 3px;
+
+				}
+				#martin{
+					border-style: solid;
+					padding-bottom: 40px;
+				}
+				h1,h2,h3{
+					color: blue;
+
+				}
+				h4{
+					font-weight: 500;
+				}
+				
+
+
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"], input[type="reset"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover, input[type="reset"]:hover {
+            background-color: #45a049;
+        }
+
+
+
+        div video:hover{
+	        	
+			   text-decoration: none;
+			   color:black;
+			   transform: scale(1.05);
+			   opacity: 1;
+						
+        }
+				
+	</style>
+
+</head>
+
+
+
+<body>
+
+	<div class="jumbotron text-center" id="heading">
+    	 <h2 style="color: white;"><b>Helenski School</b></h2>
+    	 <p>Providing Excellence in Special Education Since 1969</p>
+    	 
+    </div>
+  
+    <ul>
+    	<li><a href="#home">Home</a></li>
+    	<li><a href="#aboutus">About US</a></li>
+    	<li><a href="#ourvision">Our Vision</a></li>
+    	<li><a href="#learning_and_activity">Learning & Activity</a></li>
+    	<li><a href="#testimonials">Testimonials</a></li>
+    	<li><a href="#careers">Careers</a></li>
+    	<li><a href="#contactus">Contact US</a></li>
+    </ul>
+
+    
+
+    <div class="container-fluid abc">
+    	<img src="pics/19.jpg" style="width:100%">
+    </div>
+    <hr>
+    
+
+
+<!-- ----------------ABOUT US------------------ -->
+
+    <div id="aboutus" class="container-fluid" >
+    	
+    	  
+    	   <div class="row text-center">
+    	   	<div class="col-sm-6">
+    	   		<img src="helpics/jenkins-paul.jpg">
+    	   		<h4 style="margin-bottom: -20px;">Mr.Paul Jenkins</h4>
+    	   		<h3>Principal</h3>
+    	   	</div>
+    	   	<div class="col-sm-6">
+    	   		<img src="helpics/emery-maria.jpg">
+    	   		<h4 style="margin-bottom: -20px;">Mrs.Maria Emery</h4>
+    	   		<h3>Assistant Principal</h3>
+    	   	</div>
+    	   	
+    	   </div>
+    	  
+
+    	   <p style="border: 2px solid black; padding-left: 20px;  border-radius: 8px; font-size: 16px;">Helensi Primary School is a K-6 primary school.<br>
+    	   Throughout this website you will be able to see the many opportunities that are available here at our school, from academic, social to sporting.<br>
+    	   Serve One Another In Love is not only the school motto, but is lived out by the school community. Helenski Primary School has and continues to have a very dedicated and committed staff, very generous and supportive parents and priests who assist spiritually to bring the Gospel values to the pupils and the very best comcation possible.<br>
+    	   We are a vibrant community and we continue to follow a long tradition of the Christian Brothers and Presentation Sisters who both founded our school.<br>
+				 The heart of this school and parish is built on the values of Jesus Christ, and we continue to be a school of friendliness and shared faith where students, staff and parents come together to live the gospel of Jesus.<br>
+				 Parents and friends are always welcome to visit our school.
+    	 	 </p>
+    	 
+    	   
+
+
+    </div> 
+<!-- ----------------OUR VISION---------------- -->
+    
+    <div id="ourvision" class="container-fluid">
+    	   <h1 align="center">Our Vision</h1> 
+    	   <p style="border: 2px solid black; font-size: 16px; padding-left: 20px; border-radius: 8px; ">
+    	   	Our Vision is to empower every learner at HELENSKI with quality comcation for a successful career path. We commit to make our Value based quality Comcation Benchmark beyond Emulation. Our endeavor is to continually improve all aspects of life we operate in into a worthwhile tomorrow. Our Vision is our action and our task our Mission.<br>
+					Holistic development of students and teachers is what we believe in and work for. We strive to achieve this by imbibing a unique value system and transparent work culture, excellent academic and physical environment conducive to learning, creativity & technology transfer. Our mandate is to generate, preserve & share knowledge for developing a vibrant society.
+    	   </p>
+    </div> 
+    <hr>
+
+<!-- ---------LEARNING AND ACTIVITY------------ -->
+
+    <div id="learning_and_activity" class="container-fluid">
+    	   <h1 align="center">Learning & Activity</h1>
+    	   <div class="row-text-center">
+    	   	<div class="col-sm-4">
+    	   		<h4>Introduction Class</h4>
+    	   		<video src="videos/vid01.mp4" controls height="350" width="400" style="margin-top: -60px; padding-bottom: 20px; padding-top: 10px;"></video>
+    	   		
+    	   	</div>
+    	   	<div class="col-sm-4">
+    	   		<h4>Teaching Class</h4>
+    	   		<video src="videos/vid02.mp4" controls height="350" width="400" style="margin-top: -60px; padding-bottom: 20px; padding-top: 10px;"></video>
+    	   		
+    	   	</div>
+    	   	<div class="col-sm-4">
+    	   		<h4>Practical Class</h4>
+    	   		<video src="videos/vid03.mp4" controls height="350" width="400" style="margin-top: -60px; padding-bottom: 20px; padding-top: 10px;"></video>
+    	   		
+    	   	</div>
+    	   		
+    	   </div>
+<!-- -----------SECOND ROW---------- -->
+    	   <div class="row-text-center">
+    	   	<div class="col-sm-4">
+    	   		<h4>Exercise Class</h4>
+    	   		<video src="videos/vid04.mp4" controls height="350" width="400" style="margin-top: -60px;"></video>
+    	   		
+    	   	</div>
+    	   	<div class="col-sm-4">
+    	   		<h4>Relax Class</h4>
+    	   		<video src="videos/vid05.mp4" controls height="350" width="400" style="margin-top: -60px;"></video>
+    	   		
+    	   	</div>
+    	   	<div class="col-sm-4">
+    	   		<h4>Drawing Class</h4>
+    	   		<video src="videos/vid06.mp4" controls height="350" width="400" style="margin-top: -60px;"></video>
+    	   		
+    	   	</div>
+    	   		
+    	   </div>
+    	  
+		</div>
+
+<!-- ------------TESTOMONIALS--------------- -->
+
+    <div id="testimonials" class="container-fluid">
+    	  <h1 align="center">Testimonials</h1>
+    	  <div class="row-text-center">
+    	  <div class="col-sm-6" id="bor">
+    	  	<h3 style="color: blue;">Sangee</h3>
+    	  	<p>Helenski Public school is very good school. All the staff and teachers are very supportive.Big campus and kids can enjoy and also they have extra curricular activities with studies. We are happy about the school</p>
+    	  </div>
+    	  <div class="col-sm-6" id="bor">
+    	  	<h3 style="color: blue;">Chokaravic</h3>
+    	  	<p>Its one of the well balanced schools for kids in and Hebbal surrounding areas, where the curriculum is not just targeted for studies but for overall growth of kids, by making sports and other activities part of curriculum </p>
+    	  </div>
+    	  <div class="col-sm-6" id="bor">
+    	  	<h3 style="color: blue;">Alex</h3>
+    	  	<p>
+    	  		Helenski Public School is a great place, where students are imparted excellent academic and extracurricular coaching. All students are treated equally and with respect. There is a positive energy flowing from the teachers and the office staff. The portions are covered at such a pace that, the students don’t feel burdened. Our son Adams loves coming to school. Last but not least, a big thanks to all his favourite teachers.
+    	  	</p>
+    	  </div>
+    	  <div class="col-sm-6" id="martin">
+    	  	<h3 style="color: blue;">Martin</h3>
+    	  	<p>
+    	  		Here my daughter jelena learning since last 4 year Best School , they care about teaching and transport facility . All class and extra-curricular activities are conducted exceptionally well. All staff are very Good and We are happy to join this school.
+    	  	</p>
+    	  </div>
+    	</div>
+    	  <hr>
+    </div> 
+
+<br>
+<!-- -------------DAILY SCHEDULE--------------- -->
+
+    <div id="daily_schedule" class="container-fluid">
+    	
+    	<div class="row-text-center">
+	    	<div class="col-sm-6">
+	    		<br>
+	    		<img src="helpics/images.jpg" style="width:100%; height: 80%;">
+	    	</div>
+	    	<div class="col-sm-6">
+	    		<h2>Daily Schedule</h2>
+	    		<p><h3 style="color: brown;">8:55am LEARNING SESSION 1</h3>
+	    		<h4>11:00 LUNCH (supervised eating for 10 mins)</h4>
+	    		</p>
+	    		<p><h3 style="color: brown;">11:50am LEARNING SESSION 2</h3>
+	    		<h4>1:50pm AFTERNOON TEA</h4>
+	    		</p>
+	    		<p><h3 style="color: brown;">1:50pm LEARNING SESSION 3</h3>
+	    		<h4>3:15pm FINAL BELL home time</h4>
+	    		</p>
+	    	</div>
+    	</div>
+    </div>
+
+
+
+<!-- ---------------CAREERS------------------------- -->
+
+    <div class="container-fluid" id="careers">
+    	   <h1 align="center">Careers</h1>
+      
+       <div class="row text-center">
+       	   <div class="col-sm-3">
+       	   	
+                <!--copy Here -->
+       	   	    <div class="image_with_data">
+       	   	    	<img src="pics/t1.png" style="width:100%">
+       	   	    	<div class="add_data">
+       	   	    		<h4>Secondary Teacher</h4>
+       	   	    		<p>We are Looking for an English<br>Teacher</p>
+       	   	    		<p>Exp : Year 7-10</p>
+       	   	    		<p>Ready to Mutual Agreement</p>
+
+       	   	    	</div>
+       	   	    </div>
+       	   	    <!--till here-->
+
+
+       	   </div>
+
+       	   <div class="col-sm-3">
+       	   			<div class="image_with_data">
+       	   	    	<img src="pics/t1.png" style="width:100%">
+       	   	    	<div class="add_data">
+       	   	    		<h4>High Secondary Teacher</h4>
+       	   	    		<p>We are Looking for an High Secondary Teacher</p>
+       	   	    		<p>Exp : Year 7-10</p>
+       	   	    		<p>Ready to Mutual Agreement</p>
+
+       	   	    	</div>
+       	   	    </div>
+       	   </div>
+       	   
+       	   <div class="col-sm-3">
+       	   			<div class="image_with_data">
+       	   	    	<img src="pics/t1.png" style="width:100%">
+       	   	    	<div class="add_data">
+       	   	    		<h4>Admin </h4>
+       	   	    		<p>We are Looking for an Admin female Candidate</p>
+       	   	    		<p>Exp : Year 7-10</p>
+       	   	    		<p>Ready to Mutual Agreement</p>
+
+       	   	    	</div>
+       	   	    </div>
+       	   </div>
+       	   <div class="col-sm-3">
+       	   			<div class="image_with_data">
+       	   	    	<img src="pics/t1.png" style="width:100%">
+       	   	    	<div class="add_data">
+       	   	    		<h4>Counsellor</h4>
+       	   	    		<p>We are Looking for an Female<br> Counsellor</p>
+       	   	    		<p>Exp : Year 7-10</p>
+       	   	    		<p>Ready to Mutual Agreement</p>
+
+       	   	    	</div>
+       	   	    </div>
+       	   </div>
+
+       </div> <!-- end of 1st row-->
+
+
+         <br><br>
+     
+  
+       <div class="row text-center">
+       	   <div class="col-sm-3">
+       	   	
+                <!--copy Here -->
+       	   	    <div class="image_with_data">
+       	   	    	<img src="pics/t1.png" style="width:100%">
+       	   	    	<div class="add_data">
+       	   	    		<h4>Secondary Teacher</h4>
+       	   	    		<p>We are Looking for an English<br> Teacher</p>
+       	   	    		<p>Exp : Year 7-10</p>
+       	   	    		<p>Ready to Mutual Agreement</p>
+
+       	   	    	</div>
+       	   	    </div>
+       	   	    
+
+
+       	   </div>
+
+       	   <div class="col-sm-3">
+       	   			<div class="image_with_data">
+       	   	    	<img src="pics/t1.png" style="width:100%">
+       	   	    	<div class="add_data">
+       	   	    		<h4>Accoutant</h4>
+       	   	    		<p>We are Looking for an Male<br>Accoutant</p>
+       	   	    		<p>Exp : Year 7-10</p>
+       	   	    		<p>Ready to Mutual Agreement</p>
+
+       	   	    	</div>
+       	   	    </div>
+       	   </div>
+       	   
+       	   <div class="col-sm-3">
+       	   			<div class="image_with_data">
+       	   	    	<img src="pics/t1.png" style="width:100%">
+       	   	    	<div class="add_data">
+       	   	    		<h4>Transport Supervision</h4>
+       	   	    		<p>We are Looking for Transport Supervision Male Candidate</p>
+       	   	    		<p>Exp : Year 7-10</p>
+       	   	    		<p>Ready to Mutual Agreement</p>
+
+       	   	    	</div>
+       	   	    </div>
+       	   </div>
+       	   <div class="col-sm-3">
+       	   			<div class="image_with_data">
+       	   	    	<img src="pics/t1.png" style="width:100%">
+       	   	    	<div class="add_data">
+       	   	    		<h4>Secondary Teacher</h4>
+       	   	    		<p>We are Looking for an Female<br>Teacher </p>
+       	   	    		<p>Exp : Fresh Requirement</p>
+       	   	    		<p>Ready to Mutual Agreement</p>
+
+       	   	    	</div>
+       	   	    </div>
+       	   </div>
+
+       </div>
+    </div><!--end of careers -->
+
+<!-- -----------CONTACT US TABLE--------------- -->
+
+    <div class="container-fluid" id="contactus">
+    	<br><br>
+    	<h1 align="center">Contact US</h3>
+    	<img src="helpics/map.png" style="width:100%">
+    	<div class="tab">
+    		<br><br><br>
+    		<table border="3px solid gold" align="center" style="width: 60%; height: 200px;">
+    			<tr>
+    			<th colspan="3" align="center">CONTACT FOR ADMISSION</th>
+    		</tr>
+    		<tr>
+    			<th>Desk</th>
+    			<th>Phone</th>
+    			<th>Email</th>
+    		</tr>
+    			<tr>
+    				<td>Principal</td>
+    				<td>+34583178801</td>
+    				<td>principal_admin@helenski.com  </td>
+    			</tr>
+    			<tr>
+    				<td>Register</td>
+    				<td>+34583178803</td>
+    				<td>registrar_admin@helenski.com</td>
+    			</tr>
+    			<tr>
+    				<td>Student Section</td>
+    				<td>+34583167704</td>
+    				<td>studentsection_admin@helenski.com   </td>
+    			</tr>
+    			<tr>
+    				<td>Account Section</td>
+    				<td>+34583156706</td>
+    				<td>adminaccounts@helenski.com</td>
+    			</tr>
+    			<tr>
+    				<td>Exam Section</td>
+    				<td>+34583891745</td>
+    				<td>exam_admin@helenski.com</td>
+    			</tr>
+    		</table>
+    	</div>
+    	<hr>
+
+
+<!-- -----------CONTACT US FORM---------------- -->
+
+
+
+    	<div class="container">
+        <h2 align="center">Contact Us</h2>
+        <div class="row-text-center">
+
+        	<div class="col-sm-6">
+        		
+				    <form action="#" method="post">
+				        <label for="firstName">First Name:</label>
+				        <input type="text" id="firstName" name="firstName" required>
+
+				        <label for="lastName">Last Name:</label>
+				        <input type="text" id="lastName" name="lastName" required>
+
+				        <label for="phone">Phone Number:</label>
+				        <input type="tel" id="phone" name="phone" required>
+
+				        <label for="email">Email:</label>
+				        <input type="email" id="email" name="email" required>
+
+				        <label for="message">Message:</label>
+				        <textarea id="message" name="message" rows="4" required></textarea>
+
+				        <input type="submit" value="Submit">
+				        <input type="reset" value="Reset">
+				    </form>
+				  </div>
+
+				  <!-- --------------ADDRESS AND CONTACT DETAILS---------------- -->
+				  <br><br>
+				  <div class="col-sm-6" id="bor"> 
+				 	<h3 style="color: blue;">Helenski Address & Contact Details</h3>
+				 	<p>
+
+				 		Phone: +345 6925 1870<br>
+						Email: hp-info@ww.helenski.com<br>
+						<br>
+						PO Box 7366<br>
+						MOUNT AUSTIN NSW 2650<br>
+						105 Fernleigh Road<br>
+						WAGGA NSW 2650<br>
+						Helenski Finland<br>
+						<br>
+						<h4>Administration Office hours:</h4>
+						Monday - Friday<br>
+						8.30am to 4.30pm
+				 	</p>
+					</div>
+				</div>
+  		</div>
+  		<br>
+		<!-- -----------------MAP------------------ -->
+		
+		<div class="container-fluid" align="center">
+		<h1 style="color: blue;">Map</h1>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.949809816069!2d73.86308457519186!
+		3d18.531170082564543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c0f555bf965d%3A0x4dbf10
+		00c873a42d!2sAISSMS%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1704984997380!5m2!1sen!2sin"
+		width="80%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-whendowngrade">
+			
+		</iframe>
+		
+	</div>
+
+</body>
+</html>
